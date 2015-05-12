@@ -26,7 +26,7 @@ Instead it modifies the `Array` prototype to implement a new method: `.stride()`
 array passing elements to a callback function. Only, instead of passing one element per
 iteration, `stride()` passes as many elements as there are function arguments.
 
-##Examples
+## Examples
 
 ### Example: Iterating through an array two elements at a time
 
