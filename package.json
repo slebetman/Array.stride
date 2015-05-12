@@ -1,9 +1,9 @@
 {
-	"name" : "Array.stride",
+	"name" : "array.stride",
 	"description" : "Implement stride method for javascript arrays to iterate multiple elements per loop",
 	
 	"author" : "Adly Abdullah <slebetman@gmail.com>",
-	"version" : "1.0",
+	"version" : "1.0.0",
 	"main" : "Array.stride.js"
 }
 
