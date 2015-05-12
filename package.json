@@ -3,7 +3,12 @@
 	"description" : "Implement stride method for javascript arrays to iterate multiple elements per loop",
 	
 	"author" : "Adly Abdullah <slebetman@gmail.com>",
-	"version" : "1.0.0",
-	"main" : "Array.stride.js"
+	"version" : "1.0.1",
+	"main" : "Array.stride.js",
+	
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/slebetman/Array.stride.git"
+	}
 }
 
