@@ -19,5 +19,10 @@ assert.equal([1,2,3,4,5].stride(function (a,b,c,d) {
 },'-').join('|'),'0:1/2/3/4|1:5/-/-/-',
 'test3');
 
+assert.equal([1,2,3,4,5].stride(function (a,b,c,d) {
+	return this + ':' + a + '/' + b + '/' + c + '/' + d;
+}.bind('>'),'-').join('|'),'>:1/2/3/4|>:5/-/-/-',
+'test4');
+
 
 console.log('All OK');
