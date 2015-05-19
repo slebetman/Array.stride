@@ -8,8 +8,16 @@ Implement stride method for javascript arrays to iterate multiple elements per l
 
 ## Usage
 
-Simply require this module. Unlike most node modules, array.stride doesn't export anything.
-Instead it modifies the `Array` prototype to implement a new method: `.stride()`.
+In node.js simply require this module. Unlike most node modules, array.stride doesn't 
+export anything. Instead it modifies the `Array` prototype to implement a new method: 
+`.stride()`.
+
+    require('array.stride');
+	
+In the browser simply include it. There are no node.js specific code used in the module. 
+Either copy/paste the code into your own source or inclde it in a script tag:
+
+    <script src="array.stride.js"></script>
 
 ## Syntax
 
