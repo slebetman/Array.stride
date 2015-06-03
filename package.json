@@ -4,6 +4,7 @@
 	
 	"author" : "Adly Abdullah <slebetman@gmail.com>",
 	"version" : "1.0.3",
+	"license" : "BSD-2-Clause",
 	"main" : "array.stride.js",
 	
 	"repository" : {
