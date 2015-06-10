@@ -24,5 +24,9 @@ assert.equal([1,2,3,4,5].stride(function (a,b,c,d) {
 }.bind('>'),'-').join('|'),'>:1/2/3/4|>:5/-/-/-',
 'test4');
 
+assert.equal([1,2,3,4,5,6,7,8].stride(function (a,b,c,d) {
+	return [a,b,c,d].join(',');
+}).join('|'),'1,2,3,4|5,6,7,8',
+'test5');
 
 console.log('All OK');
